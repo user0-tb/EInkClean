@@ -30,9 +30,9 @@ jobs:
       
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
-       with:
-         name: *
-         path: /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/
+      with:
+        name: *
+        path: /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/
 
         
 
