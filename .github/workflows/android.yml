@@ -24,9 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew assembleDebug
-    - name: cd
-      run: cd build
-    - name: ls 
-      run: ls build/intermediates
+    
+    - name: Listing
+      run: ls 
       
 
