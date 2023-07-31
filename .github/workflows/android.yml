@@ -27,6 +27,6 @@ jobs:
     - name: cd
       run: cd build
     - name: ls
-      run: ls
+      run: ls build
       
 
