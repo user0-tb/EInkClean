@@ -26,6 +26,6 @@ jobs:
       run: ./gradlew build
     
     - name: Listing
-      run: ls build/intermediates
+      run: ls /home/runner/work/helloWorldAndroid/helloWorldAndroid/build/app
       
 
