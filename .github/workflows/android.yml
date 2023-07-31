@@ -26,6 +26,6 @@ jobs:
       run: ./gradlew assembleDebug
     
     - name: Listing
-      run: ls 
+      run: ls app
       
 
