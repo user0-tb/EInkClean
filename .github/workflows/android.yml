@@ -26,7 +26,7 @@ jobs:
       run: ./gradlew build
     - name: cd
       run: cd build
-    - name: ls
-      run: ls build
+    - name: ls 
+      run: ls app
       
 
