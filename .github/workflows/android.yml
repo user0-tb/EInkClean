@@ -29,7 +29,7 @@ jobs:
      
     
     - name: Listing
-      run: tree /app/build/generated/outputs/apk/debug/app-debug.apk
+      run: tree 
       
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
