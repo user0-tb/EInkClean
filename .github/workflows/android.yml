@@ -24,9 +24,12 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Install Treee
+      run: sudo apt-get install tree
+     
     
     - name: Listing
-      run: ls 
+      run: tree
       
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
