@@ -29,13 +29,13 @@ jobs:
      
     
     - name: Listing
-      run: tree /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/outputs/apk/debug/
+      run: tree /home/runner/work/ScreenLandscape/ScreenLandscape/app/build/outputs/apk/debug/
     - name: Listing outputs
-      run: ls /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/outputs/apk/debug/
+      run: ls /home/runner/work/ScreenLandscape/ScreenLandscape/app/build/outputs/apk/debug/
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
-        path: /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/outputs/apk/debug/
+        path: /home/runner/work/ScreenLandscape/ScreenLandscape/app/build/outputs/apk/debug/
      
         name: app-debug.apk
 
