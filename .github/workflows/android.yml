@@ -34,7 +34,7 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
       with:
-        path: /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/outputs/apk/*.apk
+        path: /home/runner/work/helloWorldAndroid/helloWorldAndroid/app/build/generated/outputs/apk/debug/*.apk
 
 
         
