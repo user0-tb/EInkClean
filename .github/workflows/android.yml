@@ -29,7 +29,7 @@ jobs:
      
     
     - name: Listing
-      run: tree /
+      run: tree /home/runner
       
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
