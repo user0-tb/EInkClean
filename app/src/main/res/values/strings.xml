@@ -1,4 +1,4 @@
 <resources>
-  <string name="app_name">ScreenLandscape</string>
-  <string name="hello_world">Successfully rotated</string>
+  <string name="app_name">CleanEinkScreen</string>
+  <string name="hello_world"><!-- --></string>
 </resources>
